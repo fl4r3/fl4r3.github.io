@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[German Malinovsky Blog]]></title>
-  <link href="http://fl4r3.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Bootstrap3 | German Malinovsky Blog]]></title>
+  <link href="http://fl4r3.github.io/blog/categories/bootstrap3/atom.xml" rel="self"/>
   <link href="http://fl4r3.github.io/"/>
   <updated>2015-06-02T14:13:59+03:00</updated>
   <id>http://fl4r3.github.io/</id>
@@ -18,8 +18,7 @@
     <link href="http://fl4r3.github.io/blog/2015/06/01/how-to-render-all-flash-messages-in-bootstrap-style-with-twig/"/>
     <updated>2015-06-01T13:52:49+03:00</updated>
     <id>http://fl4r3.github.io/blog/2015/06/01/how-to-render-all-flash-messages-in-bootstrap-style-with-twig</id>
-    <content type="html"><![CDATA[<p>Here is how to do it:</p>
-
+    <content type="html"><![CDATA[<p>Here is how to do it:
 <div class="highlight"><pre><code class="language-html" data-lang="html">{% if app.session.started %}
     {% for type, flashes in app.session.flashbag.all %}
         {% for message in flashes %}
@@ -31,8 +30,7 @@
             <span class="nt">&lt;/div&gt;</span>
         {% endfor %}
     {% endfor %}
-{% endif %}</code></pre></div>
-
+{% endif %}</code></pre></div></p>
 ]]></content>
   </entry>
   

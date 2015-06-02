@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>German Malinovsky Blog</title>
+  <title>Category: Twig - German Malinovsky Blog</title>
   <meta name="author" content="German Malinovsky">
 
   
-  <meta name="description" content="Here is how to do it: {% if app.session.started %} {% for type, flashes in app.session.flashbag.all %} {% for message in flashes %} &lt;div class=& &hellip;">
+  <meta name="description" content="Category: twig">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fl4r3.github.io/">
+  <link rel="canonical" href="http://fl4r3.github.io/blog/categories/twig/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="German Malinovsky Blog" type="application/atom+xml">
@@ -63,58 +63,40 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/06/01/how-to-render-all-flash-messages-in-bootstrap-style-with-twig/">How to Render All Flash Messages in Twig and Bootstrap 3</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-06-01T13:52:49+03:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>1</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>1:52 pm</span></time>
-        
-      </p>
+    <h1 class="entry-title">Category: Twig</h1>
     
   </header>
+  
+  <div id="blog-archives" class="category">
 
 
-  <div class="entry-content"><p>Here is how to do it:</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">{% if app.session.started %}
-    {% for type, flashes in app.session.flashbag.all %}
-        {% for message in flashes %}
-            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;alert alert-{{ type }} alert-dismissible&quot;</span> <span class="na">role=</span><span class="s">&quot;alert&quot;</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;close&quot;</span> <span class="na">data-dismiss=</span><span class="s">&quot;alert&quot;</span><span class="nt">&gt;</span>
-                    <span class="nt">&lt;span</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/span&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>Close<span class="nt">&lt;/span&gt;</span>
-                <span class="nt">&lt;/button&gt;</span>
-                {{ message }}
-            <span class="nt">&lt;/div&gt;</span>
-        {% endfor %}
-    {% endfor %}
-{% endif %}</code></pre></div>
+  
+  <h2>2015</h2>
+
+<article>
+  
+<h1><a href="/blog/2015/06/01/how-to-render-all-flash-messages-in-bootstrap-style-with-twig/">How to Render All Flash Messages in Twig and Bootstrap 3</a></h1>
+<time datetime="2015-06-01T13:52:49+03:00" pubdate><span class='month'>Jun</span> <span class='day'>01</span> <span class='year'>2015</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/bootstrap3/'>bootstrap3</a>, <a class='category' href='/blog/categories/symfony2/'>symfony2</a>, <a class='category' href='/blog/categories/twig/'>twig</a></span>
+</footer>
+
+
+</article>
 
 </div>
-  
-  
 
-
-    </article>
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+</article>
+
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -134,6 +116,7 @@
 
   
 </aside>
+
 
     </div>
   </div>

@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>German Malinovsky Blog</title>
+  <title>How to Render All Flash Messages in Twig and Bootstrap 3 - German Malinovsky Blog</title>
   <meta name="author" content="German Malinovsky">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fl4r3.github.io/">
+  <link rel="canonical" href="http://fl4r3.github.io/blog/2015/06/01/how-to-render-all-flash-messages-in-bootstrap-style-with-twig/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="German Malinovsky Blog" type="application/atom+xml">
@@ -63,15 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/06/01/how-to-render-all-flash-messages-in-bootstrap-style-with-twig/">How to Render All Flash Messages in Twig and Bootstrap 3</a></h1>
+      <h1 class="entry-title">How to Render All Flash Messages in Twig and Bootstrap 3</h1>
     
     
       <p class="meta">
@@ -87,7 +84,7 @@
   </header>
 
 
-  <div class="entry-content"><p>Here is how to do it:</p>
+<div class="entry-content"><p>Here is how to do it:</p>
 
 <div class="highlight"><pre><code class="language-html" data-lang="html">{% if app.session.started %}
     {% for type, flashes in app.session.flashbag.all %}
@@ -103,18 +100,50 @@
 {% endif %}</code></pre></div>
 
 </div>
-  
-  
 
 
-    </article>
+  <footer>
+    <p class="meta">
+      
   
-  <div class="pagination">
+
+<span class="byline author vcard">Posted by <span class="fn">German Malinovsky</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-06-01T13:52:49+03:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>1</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>1:52 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/bootstrap3/'>bootstrap3</a>, <a class='category' href='/blog/categories/symfony2/'>symfony2</a>, <a class='category' href='/blog/categories/twig/'>twig</a>
+  
+</span>
+
+
+    </p>
     
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://fl4r3.github.io/blog/2015/06/01/how-to-render-all-flash-messages-in-bootstrap-style-with-twig/" data-via="" data-counturl="http://fl4r3.github.io/blog/2015/06/01/how-to-render-all-flash-messages-in-bootstrap-style-with-twig/" >Tweet</a>
+  
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -134,6 +163,7 @@
 
   
 </aside>
+
 
     </div>
   </div>
